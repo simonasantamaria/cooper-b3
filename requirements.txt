@@ -1,0 +1,4 @@
+motor==2.5.1
+pydantic==1.9.0
+pymongo==3.12.3
+typing_extensions==4.0.1
