@@ -1,8 +1,6 @@
+fastapi==0.75.0
 
-fastapi == 0.65.1
-
-uvicorn == 0.14.0
-
-motor == 2.4.0
-
-dotenv == 0.19.2                    
+uvicorn==0.12.3
+aiofiles==0.6.0
+python-multipart==0.0.5
+jinja2==2.11.2
