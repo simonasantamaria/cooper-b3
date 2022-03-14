@@ -8,3 +8,7 @@ router = APIRouter()
 def print_variables_frontend(variables: schemas.FrontendVariables):
     print("variables are here....!!!", variables.name, variables.email)
     return {"submitted_variables": variables, "modified_variable_name": variables.name + " !!!----", }
+
+@router.get("index")
+async def root(variables: schemas.FrontendVariables):
+    return {"message":variables.name}
