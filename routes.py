@@ -10,7 +10,7 @@ def print_variables_frontend(variables: schemas.FrontendVariables):
     return {"submitted_variables": variables, "modified_variable_name": variables.name + " !!!----", }
 
 
-@router.get("/{name}")
-def root(name: str):
-    print('its here...')
-    return {"variable": name}
+#@router.get("/{name}")
+#def root(name: str):
+#    print('its here...')
+#    return {"variable": name}
